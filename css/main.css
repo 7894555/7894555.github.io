@@ -1,7 +1,16 @@
 body{
   background-color: blue;
 }
-
+body.dark{
+  background-color:#333;
+}
+.dark .post{
+  background-color:black;
+  color: aquamarine;
+}
+.dark .themebutton img{
+  content: url(../images/37.12.26.235-SUNS-235.jpg);
+}
 .post{
     width:50%;
     background-color: rgb(83, 164, 40);
@@ -86,3 +95,10 @@ body{
     border-radius:0;
    }
  }
+.themebutton{
+ display: flex;  
+} 
+.themebutton img{
+  width: 45px;
+}  
+ 
