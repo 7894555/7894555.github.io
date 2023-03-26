@@ -124,3 +124,20 @@ body.dark{
 .short .more{
   display: inline-block;
 }
+.like{
+  float: right;
+  font-size:24px;
+  user-select: none;
+  display: flex;
+  margin-right:3%;
+}
+.plus{
+  margin-right: 3px;
+  color:aqua;
+  cursor: pointer; 
+}
+.minus{
+  margin-left: 3px;
+  color: crimson;
+  cursor: pointer;
+}
