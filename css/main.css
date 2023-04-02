@@ -136,8 +136,14 @@ body.dark{
   color:aqua;
   cursor: pointer; 
 }
+.plus img{
+  width: 40px;
+}
 .minus{
   margin-left: 3px;
   color: crimson;
   cursor: pointer;
+}
+.minus img{
+  width: 40px;
 }
